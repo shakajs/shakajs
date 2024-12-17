@@ -9,13 +9,7 @@ import { Shaka } from '@shakajs/shakajs'
 ```
 
 ```html
-<Shaka 
-  src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"
-  poster="shakajs.png"
-  :autoplay="true"
-  :muted="false"
-  :loop="false"
-></Shaka>
+<Shaka src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"></Shaka>
 ```
 
 <!--```html
