@@ -4,8 +4,10 @@
 npm install @shakajs/shakajs
 ```
 
-```js
-import { Shaka } from '@shakajs/shakajs'
+```html
+<script setup>
+  import { Shaka } from "@shakajs/shakajs"
+</script>
 ```
 
 ```vue
