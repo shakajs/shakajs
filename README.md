@@ -20,7 +20,7 @@ import { Shaka } from '@shakajs/shakajs'
 
 ```html
 <Shaka src="<manifest-url>">
-     <track src="en.vtt" kind="captions" label="en" srclang="en"/>
+     <track src="en.vtt" kind="captions" label="en" srclang="en">
 </Shaka>
 ```
 
