@@ -12,6 +12,16 @@ import { Shaka } from '@shakajs/shakajs'
 <Shaka src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"></Shaka>
 ```
 
+```html
+<Shaka
+  src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"
+  :ui='{
+    "addSeekBar": false,
+    "controlPanelElements": ["play_pause", "time_and_duration", "spacer", "fullscreen"]
+  }'
+></Shaka>
+```
+
 <!--```html
 <Shaka src="<manifest-url>">
   <track src="en.vtt" kind="captions" label="en" srclang="en">
@@ -30,11 +40,3 @@ import { Shaka } from '@shakajs/shakajs'
   poster="shakajs.png"
 ></Shaka>
 ```-->
-
-```html
-<Shaka
-  src="<manifest-url>"
-  :controls=["play_pause", "time_and_duration", "fullscreen"]
-  :menu=["picture_in_picture", "playback_rate"]
-></Shaka>
-```
