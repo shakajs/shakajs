@@ -20,9 +20,6 @@ npm install @shakajs/shakajs
 <template>
   <Shaka
     src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"
-    :autoplay="true"
-    :loop="false"
-    :muted="false"
     :ui='{
       "addSeekBar": false,
       "controlPanelElements": ["play_pause", "time_and_duration", "spacer", "overflow_menu"],
