@@ -36,3 +36,11 @@ import { Shaka } from '@shakajs/shakajs'
   poster="shakajs.png"
 ></Shaka>
 ```
+
+```html
+<Shaka
+  src="<manifest-url>"
+  :controls=["play_pause", "time_and_duration", "fullscreen"]
+  :menu=["picture_in_picture", "playback_rate"]
+></Shaka>
+```
