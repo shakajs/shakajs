@@ -11,13 +11,14 @@ import { Shaka } from '@shakajs/shakajs'
 ```html
 <Shaka 
   src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"
+  poster="shakajs.png"
   :autoplay="true"
   :muted="false"
   :loop="false"
 ></Shaka>
 ```
 
-```html
+<!--```html
 <Shaka src="<manifest-url>">
   <track src="en.vtt" kind="captions" label="en" srclang="en">
 </Shaka>
@@ -34,7 +35,7 @@ import { Shaka } from '@shakajs/shakajs'
   src="<manifest-url>"
   poster="shakajs.png"
 ></Shaka>
-```
+```-->
 
 ```html
 <Shaka
