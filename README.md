@@ -12,14 +12,14 @@ npm install @shakajs/shakajs
 
 ```vue
 <template>
-  <Shaka src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"></Shaka>
+  <Shaka src="https://storage.googleapis.com/shaka-demo-assets/sintel/dash.mpd"></Shaka>
 </template>
 ```
 
 ```vue
 <template>
   <Shaka
-    src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"
+    src="https://storage.googleapis.com/shaka-demo-assets/sintel/dash.mpd"
     :ui='{
       "addSeekBar": false,
       "controlPanelElements": ["play_pause", "time_and_duration", "spacer", "overflow_menu"],
