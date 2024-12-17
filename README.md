@@ -9,12 +9,11 @@ import { Shaka } from '@shakajs/shakajs'
 ```
 
 ```html
-<Shaka
-  src="<manifest-url>"
-  :live="false"
+<Shaka 
+  src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"
   :autoplay="true"
+  :muted="false"
   :loop="false"
-  :muted="true"
 ></Shaka>
 ```
 
