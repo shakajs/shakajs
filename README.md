@@ -17,3 +17,15 @@ import { Shaka } from '@shakajs/shakajs'
   :muted="true"
 ></Shaka>
 ```
+
+```html
+<Shaka src="<manifest-url>">
+     <track src="en.vtt" kind="captions" label="en" srclang="en"/>
+</Shaka>
+```
+
+```html
+<Shaka>
+  <source src="<manifest-url>">
+</Shaka>
+```
