@@ -17,7 +17,8 @@ import { Shaka } from '@shakajs/shakajs'
   src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"
   :ui='{
     "addSeekBar": false,
-    "controlPanelElements": ["play_pause", "time_and_duration", "spacer", "fullscreen"]
+    "controlPanelElements": ["play_pause", "time_and_duration", "spacer", "overflow_menu"],
+    "overflowMenuButtons" : ["quality", "captions"]
   }'
 ></Shaka>
 ```
