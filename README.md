@@ -29,3 +29,10 @@ import { Shaka } from '@shakajs/shakajs'
   <source src="<manifest-url>">
 </Shaka>
 ```
+
+```html
+<Shaka
+  src="<manifest-url>"
+  poster="shakajs.png"
+></Shaka>
+```
