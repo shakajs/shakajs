@@ -8,19 +8,23 @@ npm install @shakajs/shakajs
 import { Shaka } from '@shakajs/shakajs'
 ```
 
-```html
-<Shaka src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"></Shaka>
+```vue
+<template>
+  <Shaka src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"></Shaka>
+</template>
 ```
 
-```html
-<Shaka
-  src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"
-  :ui='{
-    "addSeekBar": false,
-    "controlPanelElements": ["play_pause", "time_and_duration", "spacer", "overflow_menu"],
-    "overflowMenuButtons" : ["quality", "captions"]
-  }'
-></Shaka>
+```vue
+<template>
+  <Shaka
+    src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"
+    :ui='{
+      "addSeekBar": false,
+      "controlPanelElements": ["play_pause", "time_and_duration", "spacer", "overflow_menu"],
+      "overflowMenuButtons" : ["quality", "captions"]
+    }'
+  ></Shaka>
+</template>
 ```
 
 <!--```html
