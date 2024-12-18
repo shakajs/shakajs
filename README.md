@@ -20,7 +20,7 @@ npm install @shakajs/shakajs
 <template>
   <Shaka
     src="https://storage.googleapis.com/shaka-demo-assets/sintel/dash.mpd"
-    poster="./path/to/poster.png"
+    poster="https://storage.googleapis.com/shaka-asset-icons/sintel.webp"
     :ui='{
       "addSeekBar": false,
       "controlPanelElements": ["play_pause", "time_and_duration", "spacer", "overflow_menu"],
