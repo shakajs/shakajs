@@ -24,7 +24,7 @@ npm install @shakajs/shakajs
     :ui='{
       "addSeekBar": false,
       "controlPanelElements": ["play_pause", "time_and_duration", "spacer", "overflow_menu"],
-      "overflowMenuButtons" : ["quality", "captions"]
+      "overflowMenuButtons": ["quality", "captions"]
     }'
   ></Shaka>
 </template>
