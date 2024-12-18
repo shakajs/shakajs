@@ -36,7 +36,7 @@ npm install @shakajs/shakajs
     --shaka-object-fit: contain;
     --shaka-background-color: #000000;
     --shaka-aspect-ratio: 16 / 9;
-    --shaka-width: 528px;
+    --shaka-width: 720px;
     --shaka-height: unset;
   }
 </style>
