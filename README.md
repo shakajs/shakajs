@@ -30,6 +30,18 @@ npm install @shakajs/shakajs
 </template>
 ```
 
+```vue
+<style>
+  :root {
+    --shaka-object-fit: contain;
+    --shaka-background-color: #000000;
+    --shaka-aspect-ratio: 16 / 9;
+    --shaka-width: 528px;
+    --shaka-height: unset;
+  }
+</style>
+```
+
 <!--```html
 <Shaka src="<manifest-url>">
   <track src="en.vtt" kind="captions" label="en" srclang="en">
