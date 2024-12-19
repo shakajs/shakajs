@@ -1,0 +1,47 @@
+{
+  "name": "@shakajs/shakajs",
+  "version": "0.0.1",
+  "description": "",
+  "private": false,
+  "type": "module",
+  "main": "dist/shakajs.min.cjs",
+  "module": "dist/shakajs.min.mjs",
+  "files": [
+    "dist/*"
+  ],
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "shaka-player": "*",
+    "vue": "*"
+  },
+  "devDependencies": {
+    "shaka-player": "*",
+    "@rollup/plugin-terser": "*",
+    "rollup": "*",
+    "rollup-plugin-peer-deps-external": "*",
+    "rollup-plugin-postcss": "*",
+    "rollup-plugin-vue": "*",
+    "vue": "*"
+  },
+  "dependencies": {
+    "shaka-player": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shakajs/shakajs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shakajs/shakajs/issues"
+  },
+  "homepage": "https://github.com/shakajs/shakajs",
+  "author": {
+    "name": "shakajs",
+    "url": "https://github.com/shakajs/shakajs"
+  },
+  "license": "MIT",
+  "keywords": [
+    ""
+  ]
+}
