@@ -1,7 +1,7 @@
 # shakajs
 
 ```bash
-#not avaliable yet :(
+# not available yet :(
 npm install @shakajs/shakajs
 ```
 
