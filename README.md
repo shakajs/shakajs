@@ -30,7 +30,7 @@ npm install shakajs
 </template>
 ```
 
-```vue
+<!---```vue
 <style>
   :root {
     --shaka-object-fit: contain;
@@ -40,7 +40,7 @@ npm install shakajs
     --shaka-height: unset;
   }
 </style>
-```
+```--->
 
 <!--```html
 <Shaka src="<manifest-url>">
