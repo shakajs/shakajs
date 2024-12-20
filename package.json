@@ -1,6 +1,6 @@
 {
   "name": "shakajs",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Shaka Player component built for Vue",
   "private": false,
   "type": "module",
