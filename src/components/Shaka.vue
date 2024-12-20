@@ -14,6 +14,7 @@
 
 <script>
 import * as shaka from "shaka-player/dist/shaka-player.ui.js";
+import '../../node_modules/shaka-player/dist/controls.css';
 
 export default {
   name: "Shaka",
@@ -129,8 +130,6 @@ export default {
 </script>
 
 <style>
-@import '../../node_modules/shaka-player/dist/controls.css';
-
 :root {
   --shaka-object-fit: contain;
   --shaka-background-color: #000000;
@@ -148,9 +147,9 @@ export default {
 }
 
 .shaka video {
-  object-fit: var(--shaka-object-fit);
+  object-fit: var(--shaka-object-fit) !important;
   height: 100%;
   width: 100%;
-  background-color: var(--shaka-background-color);
+  background-color: var(--shaka-background-color) !important;
 }
 </style>
