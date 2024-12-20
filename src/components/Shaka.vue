@@ -59,6 +59,11 @@ export default {
       default: () => ({}),
     },
   },
+  data() {
+    return {
+      player: null,
+    };
+  },
   mounted() {
     shaka.polyfill.installAll();
 
@@ -68,26 +73,31 @@ export default {
       console.error("Browser not supported!");
     }
   },
+  unmounted() {
+    if (this.player) {
+      this.player.destroy();
+    }
+  },
   methods: {
     async initPlayer() {
-      const player = new shaka.Player();
+      this.player = new shaka.Player();
       const ui = new shaka.ui.Overlay(
-        player,
+        this.player,
         this.$refs.ShakaContainer,
         this.$refs.Shaka
       );
 
       // Configure the player based on the stream type and provided configurations
-      this.configurePlayer(player);
+      this.configurePlayer(this.player);
       this.configureUI(ui);
 
       try {
         // Attach the player to the media element
-        await player.attach(this.$refs.Shaka);
+        await this.player.attach(this.$refs.Shaka);
         console.log("Player attached successfully!");
 
         // Load the video source
-        await player.load(this.src);
+        await this.player.load(this.src);
         console.log("The video has now been loaded!");
 
       } catch (error) {
