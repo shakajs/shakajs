@@ -1,7 +1,6 @@
 # shakajs
 
 ```bash
-# not available yet :(
 npm install shakajs
 ```
 
