@@ -2,12 +2,12 @@
 
 ```bash
 # not available yet :(
-npm install @shakajs/shakajs
+npm install shakajs
 ```
 
 ```html
 <script setup>
-  import { Shaka } from "@shakajs/shakajs"
+  import { Shaka } from "shakajs"
 </script>
 ```
 
