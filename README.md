@@ -12,15 +12,18 @@ npm install shakajs
 
 ```vue
 <template>
-  <Shaka src="https://storage.googleapis.com/shaka-demo-assets/sintel/dash.mpd"></Shaka>
+  <Shaka src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"></Shaka>
 </template>
 ```
 
 ```vue
 <template>
   <Shaka
-    src="https://storage.googleapis.com/shaka-demo-assets/sintel/dash.mpd"
-    poster="https://storage.googleapis.com/shaka-asset-icons/sintel.webp"
+    src="https://storage.googleapis.com/shaka-demo-assets/angel-one-widevine/dash.mpd"
+    poster="https://storage.googleapis.com/shaka-asset-icons/angel_one.webp"
+    :drm='{
+      "servers": { "com.widevine.alpha": "https://cwip-shaka-proxy.appspot.com/no_auth" }
+    }'
     :ui='{
       "addSeekBar": false,
       "controlPanelElements": ["play_pause", "time_and_duration", "spacer", "overflow_menu"],
@@ -41,22 +44,3 @@ npm install shakajs
   }
 </style>
 ```--->
-
-<!--```html
-<Shaka src="<manifest-url>">
-  <track src="en.vtt" kind="captions" label="en" srclang="en">
-</Shaka>
-```
-
-```html
-<Shaka>
-  <source src="<manifest-url>">
-</Shaka>
-```
-
-```html
-<Shaka
-  src="<manifest-url>"
-  poster="shakajs.png"
-></Shaka>
-```-->
