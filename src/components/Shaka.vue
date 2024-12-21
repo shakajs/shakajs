@@ -139,17 +139,17 @@ export default {
 }
 
 .shaka {
-  width: var(--shaka-width) !important;
-  height: var(--shaka-height) !important;
-  aspect-ratio: var(--shaka-aspect-ratio) !important; 
+  width: var(--shaka-width);
+  height: var(--shaka-height);
+  aspect-ratio: var(--shaka-aspect-ratio); 
   display: inline-flex;
   overflow: hidden;
 }
 
 .shaka video {
-  object-fit: var(--shaka-object-fit) !important;
+  object-fit: var(--shaka-object-fit);
   height: 100%;
   width: 100%;
-  background-color: var(--shaka-background-color) !important;
+  background-color: var(--shaka-background-color);
 }
 </style>
